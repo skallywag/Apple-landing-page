@@ -6,13 +6,23 @@
   height: 48px;
 }
 .navTool {
-  width: 15px;
-  height: 15px;
+  font-size: 15px;
   font-weight: 400;
 }
+.searchTool {
+  font-size: 15px;
+  font-weight: 400;
+}
+.cartTool {
+  font-size: 15px;
+  font-weight: 400;
+}
+
 .navTool:hover {
   color: white;
+  transition: 0.5s ease-in-out;
 }
+
 .navLinks {
   display: flex;
   font-size: 12px;
@@ -22,9 +32,40 @@
   height: 44px;
   align-items: center;
   gap: 40px;
+  padding: 0 15px;
 }
 
 .navLink:hover {
   color: white;
   transition: 0.5s ease-in-out;
+}
+.hamburger {
+  display: none;
+  font-size: 15px;
+}
+
+/* Media Queries*/
+@media screen and (max-width: 899px) {
+  .globalNav {
+    display: flex;
+    justify-content: space-around;
+  }
+  .navLinks {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    width: 100%;
+  }
+  .navLink {
+    display: none;
+  }
+  .navTool {
+    display: block;
+  }
+  .hamburger {
+    display: block;
+  }
+  .searchTool {
+    display: none;
+  }
 }

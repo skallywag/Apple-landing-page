@@ -1,0 +1,28 @@
+.msgCon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 45px;
+  background-color: rgba(247, 244, 244, 0.938);
+}
+
+.storeMsg {
+  font-size: 14px;
+  font-weight: 300;
+  padding: 12px 0;
+  text-align: center;
+}
+
+/* Media Queries*/
+@media screen and (max-width: 899px) {
+  .msgCon {
+    height: auto;
+  }
+  .storeMsg {
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+    width: 100%;
+  }
+}

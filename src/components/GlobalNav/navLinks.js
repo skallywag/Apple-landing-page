@@ -1,8 +1,16 @@
+import { BsSearch, BsApple, BsBag } from "react-icons/bs";
+import { FaBars } from "react-icons/fa";
 export const navLinks = [
-  // {
-  //   id: 1,
-  //   cName: "appleLink",
-  // },
+  {
+    id: 0,
+    name: <FaBars />,
+    cName: "hamburger",
+  },
+  {
+    id: 1,
+    name: <BsApple />,
+    cName: "navTool",
+  },
   {
     id: 2,
     name: "Store",
@@ -52,5 +60,15 @@ export const navLinks = [
     id: 11,
     name: "Support",
     cName: "navLink",
+  },
+  {
+    id: 12,
+    name: <BsSearch />,
+    cName: "searchTool",
+  },
+  {
+    id: 13,
+    name: <BsBag />,
+    cName: "cartTool",
   },
 ];
