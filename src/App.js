@@ -1,3 +1,4 @@
+import FeaturedPhones from "./components/FeaturedPhones/FeaturedPhones";
 import GlobalNav from "./components/GlobalNav/GlobalNav";
 import StoreMessege from "./components/StoreMessege/StoreMessege";
 function App() {
@@ -5,6 +6,7 @@ function App() {
     <div className="App">
       <GlobalNav />
       <StoreMessege />
+      <FeaturedPhones />
     </div>
   );
 }

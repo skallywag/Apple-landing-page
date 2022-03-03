@@ -1,0 +1,50 @@
+.featuredPhonesCon {
+}
+.phoneCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+}
+.phoneHeader {
+  position: absolute;
+  top: 60px;
+  padding-top: 30px;
+  text-align: center;
+  line-height: 40px;
+}
+.phone {
+  font-size: 45px;
+  font-weight: 500;
+}
+.phoneSpan {
+  font-size: 25px;
+}
+.phoneLinks {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.phoneLink {
+  font-size: 18px;
+  color: lightblue;
+  text-decoration: none;
+}
+.phoneLink:hover {
+  border-bottom: 1px solid lightblue;
+}
+.phoneImg {
+  width: 100%;
+  z-index: -1;
+}
+.imgWrapper {
+}
+
+/* Media Queries*/
+@media screen and (max-width: 500px) {
+  .phoneHeader {
+    top: 0;
+    left: 0;
+  }
+}
