@@ -1,4 +1,4 @@
-import FeaturedPhones from "./components/FeaturedPhones/FeaturedPhones";
+import FeaturedMac from "./components/MacBookPro/FeaturedMac";
 import GlobalNav from "./components/GlobalNav/GlobalNav";
 import StoreMessege from "./components/StoreMessege/StoreMessege";
 function App() {
@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <GlobalNav />
       <StoreMessege />
-      <FeaturedPhones />
+      <FeaturedMac />
     </div>
   );
 }
